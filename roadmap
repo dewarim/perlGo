@@ -1,0 +1,39 @@
+# Roadmap for PerlGo-Development
+# Note that major points are worked on in parallel, minor ones in order of appearing.
+# 2003-04-08 #2
+
+* = done.
+
+1. Game Logic
+*1.1 Implement counting of captured stones
+*1.2 # of moves should be limited (to x_dim x y_dim)
+1.2.1 Handicap-Stones
+1.3 Dead of Alive? Scoring
+1.4 KI (haha)
+
+2. Povray (POV-Ray)
+*2.0.0 OO-lize Pov.pm
+*2.0.1 Config Files
+2.1 Moving the camera
+2.2 Animation::Images
+2.2.1 Stones appearing
+2.2.2 Stones captured
+2.3 Showing variants in SGF-Tree
+
+3. Data structures / handling
+3.1 SGF-Import
+3.2 SGF-Conversion to XML
+3.3 XML-Export
+
+4. Programming style:
+4.0 "Clean Code Initiative"
+4.1 Overview of programm flow
+
+5. Animation::File
+5.1 If possible, find a free open source module to convert *.tga => *.avi[any format]
+5.2 Audio?
+
+6. Documentation
+6.1 English
+6.2 German
+

@@ -1,0 +1,28 @@
+0.1.7
+shape=circles now works.
+Rectangular boards have numbering now, either a-z, a-z without i or 0-19.
+Stones played can be rendered with the corresponding move-number above them.
+Numbering for Web/Circular Boards is not perfect.
+Added the free ttf-bitstream-vera-1.10 font.
+
+0.1.6
+Added folder pov_defs to make changes in stone textures and pigments
+easier.
+Black Stones now have a diffuse surface, wheras white is more shiny.
+Lines on the board are now thinner.
+With shape=circles you will get a variant go-board. Works best with
+x=9 and y=9 or smaller, but still looks strange.
+
+0.1.5
+- Keyboard Input now accepts valid moves in all combinations of letters & numbers like 'a4' '4a'. '4 4'.
+- When going back to move 1, the board displays as empty now.
+- Added Redo and Goto as game commands.
+Usage: When prompted for a Move, you can use
+'Redo' or +1 or + to go forwards one move
+'Undo' or -1 or - to go back one move
+'Goto Number' or 'number' to go to a specific move
+'+number' or '-number' to move along by that amount of moves
+
+
+0.1.4
+Added unlimited 'Undo' to the list of accepted commands.

@@ -1,0 +1,6 @@
+# choose a texture or a pigment
+# Textures:
+# Yellow_Pine, Rosewood, Sandalwood, White_Wood
+texture=finish {phong 0.7}
+#pigment=color White
+pigment=bozo color_map{ [0.1 color Gray70] [0.2 color White] [0.3 color Gray70] [0.4 color White] [0.6 color Gray70] [0.8 color White] [0.9 color Gray60] [0.95 color White] } warp {turbulence <0.24, 0.21, 0.22>}
