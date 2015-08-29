@@ -8,7 +8,7 @@ It allows you to play against another human player on the console, with a simple
 
 You can also configure it to use POV-Ray to render the game board and create the tga images necessary for stitching together a simple video.
 
-![Standard go board](images/rectangle.png]
+![Standard go board](images/rectangle.png)
 
 Supported board shapes of any size:
 
